@@ -9,7 +9,7 @@ const STREAM_ID = process.env.STREAM_AGG_ID
 const PAGE = 1
 const SIZE = 100
 const DT_PATTERN = 'YYYY-MM-DDTHH:mm:ss[Z]'
-const WINDOW_HOURS = 4
+const WINDOW_HOURS = 8
 
 module.exports = (callback) => {
   // Calculate Last WINDOW_HOURS hours
