@@ -10,9 +10,12 @@ Usage:
 3. npm install
 
 4. Create ".env" file with content like
-SECTION=<.edgerc section name>
-STREAM_AGG_ID=<datastream stream id>
-(Take a look at Authorization (https://developer.akamai.com/introduction/Prov_Creds.html) and Credentials (https://developer.akamai.com/introduction/Conf_Client.html) sections in Akamai CLI Getting Started guide.
+
+> SECTION=\<.edgerc section name\>
+
+> STREAM_AGG_ID=\<datastream stream id\>
+
+Take a look at Authorization (https://developer.akamai.com/introduction/Prov_Creds.html) and Credentials (https://developer.akamai.com/introduction/Conf_Client.html) sections in Akamai CLI Getting Started guide.
 
 5. Start the server:
   npm start (run the server in production mode)
